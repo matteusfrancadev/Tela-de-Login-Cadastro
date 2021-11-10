@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;700&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <div>
+        <h1>Cadastro</h1>
+
+        <form autocomplete="off" action="" method="get"> 
+            <div class="container">
+                <div>
+                    <label for="name">Nome</label>
+                    <input class="input-animation" type="text" name="name" id="name" placeholder="Nome Completo">
+                </div>
+        
+                <div>
+                    <label for="email">Email</label>
+                    <input class="input-animation" type="email" name="email" id="email">  
+                </div>
+        
+                <div>
+                    <label for="password">Senha</label>
+                    <input class="input-animation" type="password" name="password" id="password" placeholder="********">
+                </div>
+                
+                <div> 
+                    <label for="phone" class="label">Celular</label>
+                    <input class="input-animation" type="text" name="phone" id="phone" placeholder="(00) 00000-0000">
+                    <label for="whatsapp" class="label-phone">Whatsapp?</label>
+                    <input type="checkbox"name=whatsapp id="whatsapp"> 
+                </div>
+        
+                <div>
+                    <label for="date">Data de Nascimento</label>
+                    <input class="input-animation" type="date" name="date" id="date">
+                </div>
+        
+                <div>
+                    <label>Gênero</label>
+
+                    <label for="men" class="label-genre">
+                        <input type="radio" name="genre"  value="men" checked>
+                        Masculino
+                    </label>
+
+                    <label for="women" class="label-genre">
+                        <input type="radio" name="genre"  value="women">
+                        Feminino
+                    </label>
+
+                    <label for="others"class="label-genre">
+                        <input type="radio" name="genre"  value="others">
+                        Outros
+                    </label>
+                </div>
+        
+                <div>
+                    <label for="profile-picture">Foto de Perfil</label>
+                    <input type="file" name="profile picture" id="profile-picture" accept="image/*">
+                </div>
+        
+                <div>
+                    <label for="nationality">Nacionalidade</label>
+                    <input class="input-animation" type="text" name="nationality" id="nationality">
+                </div>
+
+                <div>
+                    <label for="naturalness">Naturalidade</label>
+                    <input class="input-animation" type="text" name="naturalness" id="naturalness">
+                </div>
+
+                <div>
+                    <label>Estado</label>
+                    <select>
+                        <option selected="true" disabled="disabled">Escolha uma opção</option>
+                        <option value="AC"> Acre</option>
+                        <option value="AL"> Alagoas</option>
+                        <option value="AP"> Amapá</option>
+                        <option value="AM"> Amazonas</option>
+                        <option value="BA"> Bahia</option>
+                        <option value="CE"> Ceará</option>
+                        <option value="DF"> Distrito Federal</option>
+                        <option value="ES"> Espírito Santo</option>
+                        <option value="GO"> Goiás</option>
+                        <option value="MA"> Maranhão</option>
+                        <option value="MT"> Mato Grosso</option>
+                        <option value="MS"> Mato Grosso do Sul</option>
+                        <option value="MG"> Minas Gerais</option>
+                        <option value="PA"> Pará</option>
+                        <option value="PB"> Paraíba</option>
+                        <option value="PR"> Paraná</option>
+                        <option value="PE"> Pernambuco</option>
+                        <option value="PI"> Piauí</option>
+                        <option value="RJ"> Rio de janeiro</option>
+                        <option value="RN"> Rio Grande do Norte</option>
+                        <option value="RS"> Rio Grande do Sul</option>
+                        <option value="RO"> Rondônia</option>
+                        <option value="RR"> Roraima</option>
+                        <option value="SC"> Santa Catarina</option>
+                        <option value="SP"> São Paulo</option>
+                        <option value="SE"> Sergipe</option>
+                        <option value="TO"> Tocantins</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="city">Cidade</label>
+                    <input class="input-animation" type="text" name="city" id="city">
+                </div>
+                
+                <div>
+                    <label for="district">Bairro</label>
+                    <input class="input-animation" type="text" name="district" id="district">
+                </div>
+        
+                <div>
+                    <label for="road">Rua</label>
+                    <input class="input-animation" type="text" name="road" id="road">
+                </div>
+        
+                <div>
+                    <label for="number-road">Número</label>
+                    <input class="input-animation" type="number" name="number-road" id="number-road" maxlength="50000" minlength="1">
+                </div>
+        
+                <div>
+                    <label for="complement">Complemento</label>
+                    <input class="input-animation" type="text" name="complement" id="complement" maxlength="30">
+                </div>
+
+                <button type="submit">Cadastrar</button>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
