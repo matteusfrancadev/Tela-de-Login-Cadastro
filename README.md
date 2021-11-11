@@ -1,7 +1,4 @@
-# Tela-de-Login-Cadastro
-
-
-# Form
+# Tela-de-Login/Cadastro
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/matteusfrancadev/README-template?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/matteusfrancadev/README-template?style=for-the-badge)
@@ -20,7 +17,7 @@ O projeto foi concluído e essas foram as tarefas:
 - [x] Estruturar com HTML
 - [x] Estilizar com Css
 
-## Link
+## 💻 Link
 <a href="https://login-conta.netlify.app/" target="_blank"> Link do projeto</a>
 
 ## 🤝 Colaboradores
