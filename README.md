@@ -18,7 +18,7 @@ O projeto foi concluído e essas foram as tarefas:
 - [x] Estilizar com Css
 
 ## 💻 Link
-<a href="https://login-conta.netlify.app/" target="_blank"> Link do projeto</a>
+<a href="https://matteusfrancadev.github.io/Tela-de-Login-Cadastro/" target="_blank"> Link do projeto</a>
 
 ## 🤝 Colaboradores
 
