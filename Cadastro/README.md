@@ -6,7 +6,7 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/matteusfrancadev/README-template?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/matteusfrancadev/README-template?style=for-the-badge)
 
-<img src="form-login-git.png" alt="imagem-form">
+<img src="form-git.png" alt="imagem-form">
 
 Tela de Cadastro implementada através da Tela de Login usando HTML e CSS
 
